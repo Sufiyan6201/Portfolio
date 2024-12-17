@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Recipe</title>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="asset/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/fontawesome.min.css">
+    <!-- font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    </style>
+    <!-- favicon icon  -->
+    <link rel="icon" href="asset/images/logo.png">
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!-- madia -->
+    <link rel="stylesheet" href="asset/css/madia.css">
+</head>
+
+<body>
+    <script src="asset/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+
+
+
+
+    <script src="asset/js/main.js"></script>
+    <!-- header start -->
+    <section class="header">
+        <div class="navbar d-flex flex-wrap justify-between align-center">
+            <div class="logo">
+                <a href="index.html"><img src="asset/images/logo.png"></a>
+            </div>
+            <nav>
+                <ul class="d-flex flex-wrap">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#dishcateogry">dish cateogry</a></li>
+                    <li><a href="#racipes">Recipes</a></li>
+                    <li><a href="#racipesoftheweek">Racipes-of-The-Week</a></li>
+                    <li><a href="#ourupdates">Up Dates</a></li>
+                    <li><a href="#f&q">F&Q</a></li>
+                    <li><a href="contact.html" alt="_blank">Contact Us</a></li>
+                    <li><a href=""><i class="fa fa-search"></i></a></li>
+                </ul>
+            </nav>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </section>
+    <!-- header end -->
+
+    <!-- main banner start -->
+    <section id="home" class="home">
+        <div class="container align-center row" style="justify-content: space-around;padding-top: 300px;">
+
+            <div class="heading w-6  w-lg-12">
+                <h1>Avocado and Egg Toast</h1>
+                <div class="dsc">
+                    <p>
+                        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                        for previewing layouts and visual mockups.
+                        Text commonly used in the graphic, print, and publishing industries for previewing layouts and
+                        visual
+                    </p>
+                </div>
+                <div class="rewivs">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-beat"></i>
+                    <span> 4.7 ( 19,999 Rewivs )</span>
+                    <div class="pdtls d-flex">
+                        <div class="time"><i class="fa-solid fa-stopwatch-20 fa-flip"></i><span>40 min</span></div>
+                        <div class="ing"><i class="fa-solid fa-hands-asl-interpreting fa-spin"></i><span>15
+                                Ingredient</span></div>
+                        <div class="cal"><i class="fa-solid fa-heart-pulse fa-beat-fade"></i><span>600 kcal</span></div>
+                    </div>
+                    <div class="btn">
+                        <a href="">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <div class="img-round w-6 w-lg-12" style="align-self:right;"><img src="asset/images/1.png" alt=""></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- main banner end -->
+
+    <!-- about us start -->
+    <section id="aboutus" class="about-us">
+        <div class="dsc1">
+            <div class="heading2">
+                <h2>Hello & Welcome.</h2>
+            </div>
+            <div class="p2 container">
+                <p>I'm John Doe, Authoritatively communicate world-class alignments before low-risk high-yield growth
+                    strategies.<br>
+                    Synergistically envisioneer transparent niches after dynamic "outside the box" thinking.<br />
+                    Uniquely partnerships before synergistic niche markets.
+                </p>
+                <span class="p1">Cheers to all that you do!</span>
+                <div class="sing"><img src="asset/images/sign1.png"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about us end -->
+    <!-- browse category start -->
+
+    <section id="dishcateogry" class="dish-category">
+        <h2>Brows Category</h2>
+        <div class="row justify-content">
+            <div class=" dish dish-1">
+                <div class="dish-inner d-flex">
+                    <div class="category-icon"><i class="fa-solid fa-bowl-food fa-bounce"></i></div>
+                    <div class="category-title">Brakefast</div>
+                </div>
+            </div>
+            <div class=" dish dish-2">
+                <div class="dish-inner d-flex">
+                    <div class="category-icon"><i class="fa-solid fa-hill-avalanche fa-shake"></i></div>
+                    <div class="category-title">Lunch</div>
+                </div>
+            </div>
+            <div class=" dish dish-3">
+                <div class="dish-inner d-flex">
+                    <div class="category-icon"><i class="fa-solid fa-utensils fa-spin fa-spin-reverse fa-2xs"></i></div>
+                    <div class="category-title">Dinner</div>
+                </div>
+            </div>
+            <div class=" dish dish-4">
+                <div class="dish-inner d-flex">
+                    <div class="category-icon"><i class="fa-solid fa-ice-cream fa-flip"></i></div>
+                    <div class="category-title">Desserts</div>
+                </div>
+            </div>
+            <div class=" dish dish-5">
+                <div class="dish-inner d-flex">
+                    <div class="category-icon"><i class="fa-solid fa-apple-whole fa-spin"></i></div>
+                    <div class="category-title">Vegan</div>
+                </div>
+            </div>
+            <div class=" dish dish-6">
+                <div class="dish-inner d-flex">
+                    <div class="category-icon"><i class="fa-solid fa-fish-fins fa-bounce"></i></div>
+                    <div class="category-title">Sea Food</div>
+                </div>
+            </div>
+            <div class=" dish dish-7">
+                <div class="dish-inner d-flex">
+                    <div class="category-icon"><i class="fa-solid fa-martini-glass-citrus fa-flip"></i></div>
+                    <div class="category-title">Bevergase</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- browse category end -->
+
+    <!-- racipes start -->
+    <section id="racipes" class="racipes">
+        <div class="racipes-titel d-flex justify-content">
+            <h3><span>....</span>Racipes<span>....</span></h3>
+        </div>
+        <div class="parrent d-flex">
+            <div class="w-4 w-xxl-6 w-lg-10 w-md-10">
+                <div class="racipes-img">
+                    <div class="parrent-title d-flex justify-content">
+                        <span>Latest<br>Racipes</span>
+                        <a href="#racipe">View All</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-8">
+                <div class="racipe-items row">
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/1.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Ghanther Beard
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.9</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Green Goddess Avocado <br> Hummus
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Dec,26,2021
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/2.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Chauffina Carr
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.7</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Strawberry Kiwi Healthy <br> Bowl
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Dec,01,2021
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/3.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Eric Widget
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.8</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Rustic Sweet <br>Treat
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Jun,26,2021
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/4.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Bailey Wonger
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.4</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        A Delicious Homemade <br>Breakfast
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Feb,06,2021
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/5.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Norman Gordon
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.7</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Pumpkin Bars with Cream <br>Cheese Frosting
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Aug,15,2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/6.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Druid Wensleydale
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.8</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        The Best Homemade Pizza <br>Recipes
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Dec,02,2012
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/7.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Bailey Wonger
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.9</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Baked Salmon with Sweet- <br>Potatoes
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Nov,08,2023
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/8.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Pelican Steve
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.3</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        A Kollam Grilled Cheese with <br>Vegetables
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Jul,26,2018
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/9.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Malcolm Function
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.2</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Garden Veggie Delux <br>Pizza
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Mar,24,2021
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/10.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Dianne Ameter
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.6</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Spinach Artichoke Dip Pasta with <br>Chicken
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Apr,30,2017
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/11.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Weir Doe
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.4</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Quick Black Pepper Pork <br>Lunch
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        May,26,2021
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 w-xxl-6 w-lg-12">
+                        <div class="card">
+                            <img src="asset/images/12.png" alt="">
+                            <div class="card-author">
+                                <p>
+                                    By Niles Peppertrout
+                                </p>
+                                <div class="rate d-flex">
+                                    <i class="fa-regular fa-star-half-stroke">4.8</i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>
+                                        Afternoon Plates of <br>Pasta
+                                    </h3>
+                                    <div class="card-date">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        Sep,28,2023
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- racipes end -->
+    <!-- racipes of the week start -->
+    <section id="racipesoftheweek" class="racipes-of-the-week">
+        <div class="todays-racipe">
+            <div class="racipe-title">
+                <h2>
+                    Racipes of The Week
+                </h2>
+            </div>
+            <div class="container w-lg-9 w-md-8 w-sm-9">
+                <div class="row">
+                    <div class="w-5">
+                        <div class="racipe-img">
+                            <img src="asset/images/h-food.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="w-7">
+                        <div class="racipe-dsc">
+                            <h3>Earthy Pasta with Chestnuts and Mushrooms</h3>
+                            <div class="ingregient d-flex">
+                                <div class="time"><i class="fa-solid fa-stopwatch-20 fa-flip"></i><span>40 min</span>
+                                </div>
+                                <div class="ing"><i class="fa-solid fa-hands-asl-interpreting fa-spin"></i><span>9
+                                        Ingredient</span></div>
+                                <div class="cal"><i class="fa-solid fa-heart-pulse fa-beat-fade"></i><span>450
+                                        kcal</span></div>
+                            </div>
+                            <p>
+                                Distinctively leverage other's user friendly methods of empowerment and magnetic niche
+                                markets.
+                                Appropriately utilize accurate web-readiness through integrated results.
+                                Globally pursue high-quality web-readiness with value-added "outside the box" thinking.
+                                Dramatically optimize next-generation information after turnkey technologies.
+                            </p>
+                            <div class="r-btn">
+                                <a href="">Viwe All</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- racipes of the week end -->
+
+    <!-- our latest updates start -->
+    <section id="ourupdates" class="our-updates">
+        <div class="container ">
+            <h3>
+                Our Latest Up Dates
+            </h3>
+            <div class="updets-p">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quae veniam quam incidunt eos <br> Eaque esse ducimus dolore, velit, laborum dignissimos?
+                </p>
+            </div>
+            <div class="row">
+                <div class="w-4 w-lg-6 w-sm-12">
+                    <div class="testimonial-card">
+                        <img src="asset/images/bag.jpg" alt="">
+                        <div class="t-heading">
+                            <h5>
+                                How To Make Paper Piping-Bag
+                            </h5>
+                            <div class="t-p">
+                                <p>
+                                    Authoritatively productize 24/7 platforms <br> authoritatively rather than
+                                    enterprise <br> customer service.
+                                </p>
+                                <a href="">Lerne More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4 w-lg-6 w-sm-12">
+                    <div class="testimonial-card">
+                        <img src="asset/images/meal.jpg" alt="">
+                        <div class="t-heading">
+                            <h5>
+                                How To Make Paper Piping-Bag
+                            </h5>
+                            <div class="t-p">
+                                <p>
+                                    Dramatically initiate authoritatively interactive <br>e-tailerswith
+                                    enterprise-results <br>phosfluorescently.
+                                </p>
+                                <a href="">Lerne More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4 w-lg-12 w-sm-12">
+                    <div class="testimonial-card">
+                        <img src="asset/images/h-food.jpg" alt="">
+                        <div class="t-heading">
+                            <h5>
+                                Top 10 Healthy Foods of 2021
+                            </h5>
+                            <div class="t-p">
+                                <p>
+                                    Authoritatively productize 24/7 platforms <br> authoritatively rather than
+                                    enterprise <br> customer service.
+                                </p>
+                                <a href="">Lerne More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our latest updates end -->
+    <!-- stay updates start -->
+    <section class="stay-updats">
+        <div class="container">
+            <img src="asset/images/email.svg" alt="">
+            <div class="updats-title">
+                <h5>Stay Updated!</h5>
+                <span>Easy Recipes and Cookings right to your Inbox</span>
+                <input type="text" name="email" value="" placeholder="      Enter Your Email Address...">
+                <a href="">Subscribe</a>
+            </div>
+        </div>
+    </section>
+    <!-- stay updates end -->
+
+    <!-- FAQ start -->
+    <section id="f&q" class="f&q">
+        <div class="Q">
+            <div class="bg">
+                <div class="div3 justify-end d-flex flex-wrap">
+                    <h3>Frequently Asked Questions...(FAQ)</h3>
+                    <div class="fbox">
+                        <h5 class="h1">What happens if I get to the restaurant and they don't have my booking?
+                            <i class="fa-solid fa-caret-down"></i></h5>
+                            
+
+
+                        <p class="p1">Restaurant Hub restaurants are committed to honour any confirmed bookings we have generated.
+                            For added peace of mind you should always reconfirm your booking using the the link included
+                            in your reminder email, and it's also a good idea to take your confirmation email with you.
+                        </p>
+
+                        <h5 class="h2">How do I cancel a booking? <i class="fa-solid fa-caret-down"></i></h5>
+
+                        <p class="p2">To help our restaurants manage their sittings we ask our diners to give at least 24 hours'
+                            notice of any cancellations. You can do this by calling your restaurant direct.
+
+                            If you need to cancel less than 24 hours before your dinner date you can use the
+                            cancellation link within your reminder email (sent 24 hours before your reservation time).
+                            We also encourage our diners to follow this up with a call direct to the restaurant.
+
+                            To amend a booking please call the restaurant direct, again endeavouring to give at least 24
+                            hours' notice.</p>
+
+                        <h5 class="h3">Why do you need my email address? <i class="fa-solid fa-caret-down"></i></h5>
+
+                        <p class="p3">All Restaurant Hub bookings are automatically confirmed via email. Without an address to send
+                            the confirmation to the booking can't be accepted. We'll also use your email address to send
+                            reminders for any bookings made more than 24 hours in advance of your dining date. </p>
+
+                        <h5 class="h4">How do I cancel a booking? <i class="fa-solid fa-caret-down"></i></h5>
+
+                        <p class="p4">To help our restaurants manage their sittings we ask our diners to give at least 24 hours'
+                            notice of any cancellations. You can do this by calling your restaurant direct.
+
+                            If you need to cancel less than 24 hours before your dinner date you can use the
+                            cancellation link within your reminder email (sent 24 hours before your reservation time).
+                            We also encourage our diners to follow this up with a call direct to the restaurant.
+
+                            To amend a booking please call the restaurant direct, again endeavouring to give at least 24
+                            hours' notice.</p>
+                        <h5 class="h5">How do I Make a regular Table Booking? <i class="fa-solid fa-caret-down"></i></h5>
+                        <p class="p5">It's a piece of cake - once you've found your preferred restaurant simply select your Date
+                            and Time required, and then so long as we have an email address and phone number your
+                            booking is instantly confirmed the minute you hit "Book"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ end -->
+
+    <!-- footer start -->
+    <section class="footer">
+        <div class="container">
+            <div class="f-padding">
+                <div class="row">
+                    <div class="w-2 w-lg-6">
+                        <div class="widget">
+                            <h3>Download App</h3>
+                            <img src="asset/images/appstore.png" alt="">
+                            <img src="asset/images/googleplay.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-2 w-lg-4">
+                        <div class="f1">
+                            <h3>Support</h3>
+                            <ul>
+                                <a href="">
+                                    <li>Home</li>
+                                </a>
+                                <a href="">
+                                    <li>About</li>
+                                </a>
+                                <a href="">
+                                    <li>F&Q</li>
+                                </a>
+                                <a href="">
+                                    <li>Support</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-2 w-lg-6">
+                        <div class="f1">
+                            <h3>Trending</h3>
+                            <ul>
+                                <li>Shop</li>
+                                <li>Portfolio</li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-2 w-lg-4">
+                        <div class="f1">
+                            <h3>Features</h3>
+                            <ul>
+                                <li>Help Center</li>
+                                <li>Paid With Mobile </li>
+                                <li>Status</li>
+                                <li>Contact Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-4 w-lg-12">
+                        <div class="f1">
+                            <h3>Instagram Photos</h3>
+                            <div class="insagram-p">
+                                <img src="asset/images/Food.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer end -->
+</body>
+
+</html>

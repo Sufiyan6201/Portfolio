@@ -1,0 +1,851 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif', serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* self class start */
+a {
+	text-decoration: none;
+}
+
+.justify-end {
+	justify-content: end;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-content {
+	justify-content: center;
+}
+
+.align-center {
+	align-content: center;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.w-1 {
+	width: 8.33%;
+}
+
+.w-2 {
+	width: 16.66%;
+}
+
+.w-3 {
+	width: 25%;
+}
+
+.w-4 {
+	width: 33.33%;
+}
+
+.w-5 {
+	width: 41.66%;
+}
+
+.w-6 {
+	width: 50%;
+}
+
+.w-7 {
+	width: 58.33%;
+}
+
+.w-8 {
+	width: 66.66%;
+}
+
+.w-9 {
+	width: 75%;
+}
+
+.w-10 {
+	width: 83.33%;
+}
+
+.w-11 {
+	width: 91.66%;
+}
+
+.w-12 {
+	width: 100%;
+}
+
+/* self class end */
+/* navbar start */
+.header {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	position: fixed;
+
+}
+
+.navbar {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+.logo {
+	margin: 0 auto;
+	padding-right: -50px;
+}
+
+nav {
+	margin-bottom: 25px;
+	background-color: rgb(255, 255, 255);
+	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px 2px gray;
+}
+
+.bar i {
+	display: none;
+}
+
+nav li i {
+	color: #222;
+}
+
+.logo {
+	padding: -50px;
+	padding-left: -80px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+ul li {
+	list-style: none;
+	margin: 0 10px;
+	transition: 0.7s;
+}
+
+ul li a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: capitalize;
+	transition: 0.5s;
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+	margin-top: 5px;
+	padding: 8px;
+}
+
+ul:hover li a {
+	transform: scaleX(1.2);
+	opacity: 0.8;
+	filter: blur(-8px);
+	color: rgb(0, 0, 0);
+
+}
+
+ul li a:hover {
+	transform: scale(1.5);
+	opacity: 4;
+	filter: blur(0);
+	text-decoration: none;
+
+	color: rgba(0, 0, 0, 0.952);
+}
+
+ul li a:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #06b6fc04;
+	transition: 0.5s;
+	transform-origin: right;
+	transform: scaleX(o);
+	z-index: -1;
+}
+
+ul li a:hover::before {
+	transition: 0.5s;
+	transform-origin: left;
+	transform: scaleX(1);
+}
+
+/* navbar end */
+
+/* main banner start */
+
+section.home {
+	height: 100vh;
+	background: url(../images/bg.jpg) no-repeat center center / cover;
+	position: relative;
+	transition: all 1s linear;
+	transform: matrix(1, 0, 0, 1, 0, 0, );
+
+}
+
+section .backgroung:hover {
+	transform: scale(4);
+}
+
+.heading h1 {
+	color: rgb(255, 255, 255);
+	font-size: 54px;
+	font-weight: 400;
+	transition: all 2s linear;
+}
+
+section:hover .img .img-round img {
+	transform: rotate(64800deg);
+	transition: all 3000s linear;
+}
+
+.img .img-round img {
+	width: 390px;
+	height: 380px;
+	left: 0;
+	bottom: 0;
+}
+
+.dsc p {
+	display: block;
+	width: 400px;
+	height: 230px;
+	color: rgb(255, 255, 255);
+	margin-top: 20px;
+	margin-bottom: -20px;
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+i {
+	color: aliceblue;
+	font-size: 30px;
+	margin: 3px;
+}
+
+.rewivs span {
+	color: antiquewhite;
+	font-weight: 400;
+	margin: 15px;
+}
+
+.heading:hover h1 {
+	transform: scale(1);
+}
+
+.time,
+.ing {
+	border-right: 2px solid lightgray;
+}
+
+.rewivs .btn a {
+	text-decoration: none;
+	color: black;
+	background-color: antiquewhite;
+	font-weight: 600;
+	padding: 15px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 25px;
+	border: 2px solid black;
+	border-radius: 15px;
+	transition: 0.5s all linear;
+}
+
+.rewivs .btn a:hover {
+	background-color: black;
+	color: antiquewhite;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+/* main banner end */
+
+/* about us start */
+.about-us {
+	margin-top: 100px;
+}
+
+.heading2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.p2 {
+	font-size: 17px;
+	color: #777;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.p1 {
+	line-height: 180px;
+	text-align: center;
+}
+
+.sing img {
+	width: 130px;
+	transition: 0.4s linear;
+}
+
+.sing img:hover {
+	transform: scale(1.5);
+}
+
+/* about us end */
+/* browse category start*/
+.dish-3 i {
+	color: aliceblue;
+	font-size: 30px;
+	margin: 3px;
+}
+
+.dish-category {
+	margin: 8px 0 -80px;
+	padding: 80px 0;
+}
+
+.dish-category h2 {
+	text-align: center;
+	font-size: 40px;
+
+}
+
+.category-title {
+	letter-spacing: 2px;
+	padding-top: 8px;
+}
+
+.dish-1 {
+	background-image: url(../images/bg1.jpg);
+}
+
+.dish-2 {
+	background-image: url(../images/bg2.jpg);
+}
+
+.dish-3 {
+	background-image: url(../images/bg3.jpg);
+}
+
+.dish-4 {
+	background-image: url(../images/bg4.jpg);
+}
+
+.dish-5 {
+	background-image: url(../images/bg5.jpg);
+}
+
+.dish-6 {
+	background-image: url(../images/bg6.jpg);
+}
+
+.dish-7 {
+	background-image: url(../images/bg7.jpg);
+}
+
+.dish-category .dish {
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 330px;
+	width: 60px;
+	margin: 15px;
+	border-radius: 30px;
+	transition: all 0.6s linear;
+	position: relative;
+}
+
+.dish:hover {
+	width: 350px;
+	height: 330px;
+	background-size: cover;
+}
+
+.dish-inner {
+	position: absolute;
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	color: white;
+	font-weight: 600;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	bottom: 0;
+	left: 10px;
+}
+
+.dish:hover .dish-inner {
+	writing-mode: horizontal-tb;
+	transform: rotate(360deg);
+
+}
+
+/* browse category end*/
+/* racipes start */
+.racipes-titel h3 {
+	margin-top: 30px;
+	font-size: 60px;
+	font-family:  Exotc350 Bd BT;
+}
+
+.racipe-items {
+	overflow: hidden;
+}
+
+.parrent .racipes-img {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/side-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: sticky;
+	top: 0;
+	bottom: 0;
+}
+
+.parrent-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+.parrent-title span {
+	color: white;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+	display: block;
+	margin-top: -40px;
+
+}
+
+.parrent-title a {
+	border-radius: 30px;
+	background-color: white;
+	text-align: center;
+	margin: 20px;
+	padding: 10px 35px;
+	color: rgb(71, 70, 70);
+	font-weight: 500;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.card {
+	border: 1px solid rgb(253, 244, 244);
+	padding: 5px;
+}
+
+.card img {
+	width: 95%;
+	padding: 20px;
+}
+
+.card-author p {
+	font-weight: 800;
+	color: #777;
+	margin-left: 15px;
+}
+
+.rate {
+	border-radius: 4px;
+	color: antiquewhite;
+	background-color: rgb(92, 92, 245);
+	width: 40px;
+	height: 20px;
+	float: right;
+	margin-top: -20px;
+}
+
+.rate i {
+	font-size: 10px;
+}
+
+.card-title h3 {
+	color: rgba(0, 0, 0, 0.719);
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.card-date i {
+	color: rgb(93, 80, 105);
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.card:hover img {
+	animation: round 7s linear infinite;
+}
+
+@keyframes round {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* racipes end */
+/*  racipes of the week start  */
+.todays-racipe {
+	padding: 100px 0;
+}
+
+.todays-racipe .container {
+	box-shadow: 5px 4px 5px 5px rgb(179, 168, 168);
+	margin-top: 80px;
+}
+
+.racipe-img img {
+	width: 100%;
+	height: 580px;
+	margin-bottom: -5px;
+	transition: 0.3s all linear;
+
+}
+
+.racipe-img img:hover {
+	box-shadow: 4px 4px 4px 4px gray;
+}
+
+.racipe-title h2 {
+	font-weight: 400;
+	font-size: 42px;
+	color: #EEE;
+	margin-top: 50px;
+	margin-bottom: -80px;
+	margin-left: 300px;
+}
+
+.racipe-dsc {
+	margin-left: 30px;
+}
+
+.racipe-dsc h3 {
+	margin-top: 150px;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.racipe-dsc p {
+	margin-top: 20px;
+	margin-right: 30px;
+	line-height: 25px;
+	text-align: justify;
+}
+
+.ingregient {
+	font-weight: 600;
+	color: #383636;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.ingregient i {
+	color: black;
+	letter-spacing: 10px;
+	margin-left: 10px
+}
+
+.r-btn a {
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color: rgb(106, 108, 235);
+	color: rgb(255, 249, 249);
+	text-align: center;
+	width: 200px;
+	height: 60px;
+	padding: 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	font-weight: 700;
+	font-size: 20px;
+	display: block;
+	transition: 0.3s linear;
+}
+
+.r-btn a:hover {
+	background-color: #222;
+	box-shadow: 5px 5px 5px rgb(81, 102, 109);
+}
+
+hr {
+	color: #9e9c9c;
+
+}
+
+/*  racipes of the week end  */
+
+/* our latest updates start */
+.our-updates {
+	margin: 50px;
+}
+
+.testimonial-card img {
+	width: 100%;
+}
+
+.testimonial-card img:hover {
+	box-shadow: 3px 3px 3px 2px gray;
+}
+
+.testimonial-card {
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+	transition: all 0.5s linear;
+}
+
+.testimonial-card:hover {
+	border: 1px solid gray;
+	box-shadow: 3px 4px 5px gray;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.our-updates h3 {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.our-updates p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.updets-p p::after {
+	content: "";
+	display: block;
+	border-top: 3px solid rgb(37, 35, 35);
+	width: 100px;
+	margin: 30px auto 0;
+}
+
+.t-p a {
+	color: black;
+	font-weight: 400;
+	transition: all 0.5s linear;
+}
+
+.testimonial-card:hover .t-p a {
+	background-color: rgb(98, 98, 243);
+	box-shadow: 5px 5px 8px gray;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	padding: 8px;
+	margin-bottom: 20px;
+}
+
+.t-p p {
+	text-align: justify;
+	margin-top: 10px;
+}
+
+.t-heading h5 {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+/*  our latest updates end */
+/*  stay updates start */
+.stay-updats {
+	height: 500px;
+	background-image: url(../images/f-bg.jpg);
+	background-repeat: no-repeat;
+}
+
+.stay-updats .container img {
+	margin: 100px 0 24px;
+	height: 60px;
+	width: 60px;
+}
+
+.stay-updats {
+	padding-left: 50px;
+}
+
+.updats-title h5 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.updats-title span {
+	font-size: 25px;
+	font-weight: 300;
+	font-family: Calibri Light;
+	color: #777;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.updats-title a:hover {
+	background-color: #267DF4;
+	color: #f8f6f6;
+	box-shadow: 0px 3px 5px 2px gray;
+	border-radius: 0 3px 8px 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+input {
+	border-radius: 5px 0 0px 5px;
+	width: 350px;
+	height: 55px;
+	margin-left: -4px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+input:focus {
+	box-shadow: 0px 0px 0px 4px rgb(4, 117, 245);
+}
+
+.updats-title a {
+	background-color: rgb(4, 117, 245);
+	color: #f8f6f6;
+	border-radius: 0 8px 8px 0;
+	padding-top: 7px;
+	padding-bottom: 15px;
+	margin: -4px;
+	font-size: 25px;
+	transition: all 0.4s linear;
+}
+
+/* stay updates end */
+
+/* FAQ start */
+.Q .bg{
+	height: 800px;
+	background-image: url(../images/bgs.jpg);
+	background-repeat: no-repeat;
+	background-position: content;
+}
+.Q h3{
+	font-size: 50px;
+	font-family: cursive, sans-serif;
+	padding: 3px 10px;
+	margin: 20px 0;
+	background-color: #990537;
+	color: rgb(228, 207, 195);
+	box-shadow: 5px 5px 10px 2px gray;
+	border-radius: 20%;
+	margin-right: 40px;
+}
+.Q p{
+	display: none;
+}
+.fbox{
+	width: 1000px;
+	
+	border: 2px double rgb(80, 25, 25);
+}
+.fbox h5{
+	border: 2px double rgb(80, 25, 25);
+	padding: 5px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: cursive;
+}
+.fbox p{
+	font-size: 15px;
+	border: 1px solid gray;
+	padding: 5px;
+	color: #777;
+	font-weight: 500;
+}
+.fbox i{
+	color: rgb(80, 25, 25);
+	font-size: 20px;
+	float: right;
+}
+
+/* FAQ end */
+
+/* footer start */
+.footer {
+	height: 400px;
+}
+
+.widget h3 {
+	margin-top: 80px;
+	font-size: 25px;
+}
+
+.widget img {
+	width: 180px;
+	margin: 10px 0;
+	display: block;
+}
+
+.f-padding {
+	padding: 80px 0;
+}
+
+.f1 h3 {
+	margin-top: 80px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.f1 ul li,
+.f1 h3 {
+	margin-bottom: 20px;
+	font-family: Exotc350 Bd BT;
+}
+
+.f1 ul li,
+.f1 a {
+	color: black;
+	font-size: 18px;
+}
+
+.w-4 .f1 img {
+	width: 350px;
+	height: 280px;
+	margin-top: -20px;
+	border-radius: 20px;
+	box-shadow: 4px 3px 3px 5px gray;
+}
+
+/* footer end */

@@ -1,0 +1,127 @@
+*{
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+.main-banner{
+    background: url(../images/intro-bg-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar-nav li a ,h1,h2{
+    color: #fff !important;
+}
+.heading button{
+  font-size: 18px;
+  padding: 14px 18px !important;
+  background-color: #20c997;
+  outline: none !important;
+  border: none;
+  border-radius: 50rem !important;
+}
+/* about start */
+.grayscale{
+  filter: grayscale(100%);
+  transition: filter 250ms;
+}
+
+.grayscale:is(:hover,:focus){
+  filter: grayscale(0%);
+}
+.text-bg-primry{
+  color: #20c997 !important;
+}
+
+@media (min-width:992px) {
+  
+  #about,#servisec,#why-choose,#our-best-work,#work-process,.hire-me{
+    padding: 6.5rem;
+  }
+  #counter-stats{
+    padding: 0 !important;
+  }
+}
+#counter-stats{
+  padding: 4rem;
+}
+.about-us span{
+  color: #20c997;
+}
+.text-bg-primery{
+  background-color: #20c997 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+.ma-5 {
+  margin: 4rem !important
+}
+
+/* our servisec */
+
+.heading-bottom{
+  width: 90px !important;
+  color: #20c997 !important;
+}
+
+/* my skill */
+.video{
+  filter: brightness(45%);
+}
+
+.hire-me{
+  background-color: #20c997;
+  width: 100%;
+}
+
+
+/* changing text */
+
+#changingText {
+    color: #ffd166;
+    border-right: 1px solid black;
+    animation: cursoranim 1s linear infinite;
+  }
+  
+  @keyframes cursoranim {
+    50% {
+      border-right: 1px solid rgba(0, 0, 0, 0);
+    }
+  }
+  
+/* particles-js */
+canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b7;
+  }
+  /* counter js */
+
+
+
+  section#counter-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .stats {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .stats .fa,.fa-solid {
+    color: #20c997;
+    font-size: 40px;
+  }
+  
+  /*/ end count stats /*/

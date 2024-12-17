@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Our Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,300;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="asset/css/fontawesome.min.css">
+    <link rel="stylesheet" href="asset/css/all.min.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/styl.css">
+</head>
+
+<body data-bs-theme="dark">
+
+    <!---------------------------------- header start --------------------------------------------->
+
+    <header>
+        <nav class="navbar navbar-expand-lg position-fixed top-0 z-3 w-100" id="scroll-spy"
+            data-bs-theme="dark">
+
+            <div class="container">
+                <a href="" class="navbar-brand text-white text-center">
+                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Sufiyan</h3>
+                    <!-- <span>Group</span> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarcontent">
+                    <ul class="navbar-nav nav-underline  ms-auto">
+                        <li class="nav-item dropdown"><a href="#main" class="nav-link active"
+                                data-bs-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu nav-tabs">
+                                <li class="dropdown-item"><a href="#skill" class="nav-link">Skill</a></li>
+                                <li class="dropdown-item"><a href="#carousel-autoplay" class="nav-link">clint</a></li>
+                                <li class="dropdown-item"><a href="#hire-me" class="nav-link">Hire Me</a></li>
+                                <li class="dropdown-item"><a href="" class="nav-link">portfolio</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="dropdown-item"><a href="" class="nav-link">Data</a></li>
+                                <li class="dropdown-item"><a href="" class="nav-link">Customer-Support</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item text-danger"><a href="#about" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="#servisec" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#why-choose" class="nav-link">Why Choose</a></li>
+                        <li class="nav-item"><a href="#our-best-work" class="nav-link" aria-disabled="truee">Porfolio</a></li>
+                        <li class="nav-item"><a href="#work-process" class="nav-link " aria-disabled="truee">Process</a></li>
+                        <li class="nav-item"><a href="#contact-us" class="nav-link" aria-disabled="truee">Contect</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!------------------------------------------------- header end --------------------------------------------->
+
+
+    <!----------------------------------------------------------------------- body start --------------------------------------------------------------------------->
+
+    <!------------------ main banner -------------------->
+
+    <section id="main" class="main-banner position-relative vh-100">
+        <div id="particles-js">
+        </div>
+        <div
+            class=" heading position-absolute d-flex flex-wrap flex-column justify-content-center w-100 align-items-center vh-100">
+            <p class="fs-1 text-uppercase ls-4 mb-md-3 text-white">Welcome To My World</p>
+            <h1 class="display-2 fw-medium">I'M <span id="changingText" class="text-white"></span></h1>
+            <p class="fs-3 ls-4 mb-md-3 text-white">Based in Red & White Surat...</p>
+            <button class="p-2 rounded pill">Download CV</button>
+
+            <i class="fa-solid fa-arrow-down fa-bounce" style="font-size: 50px; position: sticky; top: 68%;"></i>
+        </div>
+    </section>
+
+    <!------------- about start -------------->
+
+    <div data-bs-spy="scroll" scroll-behavior="smooth" data-bs-target="#scroll-spy">
+        <section id="about" class="bg-dark-subtle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 mb-5 text-center mb-lg-0" data-aos="zoom-in-down"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                        <img src="asset/images/Picsart_23-09-04_01-40-31-166.png"
+                            style="height: 670px !important ; width: 470px !important;"
+                            class="rounded-3 grayscale img-thumbnail img-fluid d-inline-block shadow-sm" alt="">
+                    </div>
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <div class="about-us">
+                            <h2 class="mb-4 fw-semibold">About Me</h2>
+                            <h3 class="mb-4 fs-4 text-light" data-aos="fade-right">Hello! <span>I'M Sufiyan
+                                    Ansari</span>
+                            </h3>
+                            <p class="mb-3 text-white-50 fst-italic fs-5" data-aos="fade-right">I am a full stack web
+                                developer. With a passion
+                                for creating seamless and user-friendly web applications, I have honed my skills in both
+                                front-end and back-end development. I thrive in fast-paced environments and love
+                                tackling
+                                new challenges to constantly improve my abilities.</p>
+                            <p class=" text-white-50 fs-6" data-aos="fade-right">As a web developer, my main goal is to
+                                create user-friendly and
+                                visually appealing websites that effectively communicate the intended message of the
+                                client.
+                                I have a strong understanding of programming languages such as HTML, CSS, Jquery, and
+                                Bootstrap, which allows me to not only design aesthetically pleasing websites but also
+                                ensures smooth functionality and navigation for the users. I am well-versed in
+                                responsive
+                                web design, ensuring that the websites I develop look and function flawlessly on both
+                                desktop and mobile devices. Additionally, I stay up-to-date with the latest industry
+                                trends
+                                and best practices, enabling me to implement the most current and effective solutions
+                                for my
+                                clients. With a strong attention to detail and a passion for creating innovative and
+                                intuitive online experiences, I am dedicated to delivering high-quality web development
+                                services that exceed client expectations.
+                            </p>
+
+                            <!------------------------ counter start ------------------------------>
+                            <div id="counter-stats" class="wow fadeInRight" data-wow-duration="1.2s">
+                                <!-- container start -->
+                                <div class="container">
+                                    <!-- row start -->
+                                    <div class="row">
+
+                                        <div class="col-sm-3 stats" data-aos="fade-right">
+                                            <i class="fa fa-code" aria-hidden="true" data-aos="fade-right"></i>
+                                            <div class="counting" data-count="9000" data-aos="fade-right">0</div>
+                                            <h5>Lines of code</h5>
+                                        </div>
+
+                                        <div class="col-sm-3 stats" data-aos="fade-right">
+                                            <i class="fa fa-check" aria-hidden="true" data-aos="fade-right"></i>
+                                            <div class="counting" data-count="10" data-aos="fade-right">0</div>
+                                            <h5>Projects done</h5>
+                                        </div>
+
+                                        <div class="col-sm-3 stats" data-aos="fade-right">
+                                            <i class="fa fa-user" aria-hidden="true" data-aos="fade-right"></i>
+                                            <div class="counting" data-count="30" data-aos="fade-right">0</div>
+                                            <h5>Happy clients</h5>
+                                        </div>
+
+                                        <div class="col-sm-3 stats" data-aos="fade-right">
+                                            <i class="fa-solid fa-chalkboard-user" aria-hidden="true"
+                                                data-aos="fade-right"></i>
+                                            <div class="counting" data-count="1" data-aos="fade-right">0</div>
+                                            <small>Years Work</small>
+                                            <h5>Experienc</h5>
+                                        </div>
+
+
+                                    </div>
+                                    <!-- end row -->
+                                </div>
+                                <!-- end container -->
+
+                            </div>
+
+                            <!-- end cont stats -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!----------------------------------- our servisec -------------------------------------->
+
+
+        <section id="servisec" class="bg-opacity-25">
+            <div class="our-servisec text-center">
+                <h3 class="mb-1 display-6 fw-semibold">Our Servisec</h3>
+                <hr class="mb-4 mx-auto heading-bottom">
+                <p class="text-white-50 fs-5 mb-4">
+                    How I can help take your next project to new heights! Thousands of clients have <br> procured
+                    exceptional results while working with Me.
+                </p>
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="card1 bg-dark-subtle shadow-sm py-5 px-4 rounded-4">
+                                <div class="card-logo">
+                                    <i class="fa-brands fa-wordpress-simple fa-solid fs-1 mb-3"></i>
+                                    <h3 class="card-heding mb-3">Freelancer</h3>
+                                    <p class="text-white-50 fs-5" data-aos="fade-left">I am a Freelancer working on web
+                                        development hire me and
+                                        <br> I want show you My Best <br> your need our
+                                        passion !
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="card1 bg-dark-subtle shadow-sm py-5 px-4 rounded-4">
+                                <div class="card-logo">
+                                    <i class="fa-solid fa-laptop-code fs-1 mb-3"></i>
+                                    <h3 class="card-heding mb-3">Web Design</h3>
+                                    <p class="text-white-50 fs-5" data-aos="fade-left">I can create your up ranking
+                                        websites
+                                        with full responsive
+                                        running smoothly on laptop and mobile-screen your need our
+                                        passion !</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="card1 bg-dark-subtle shadow-sm py-5 px-4 rounded-4">
+                                <div class="card-logo">
+                                    <i class="fa-solid fa-pen-ruler fs-1 mb-3"></i>
+                                    <h3 class="card-heding mb-3">Web Development</h3>
+                                    <p class="text-white-50 fs-5" data-aos="fade-left">I can develop your websites
+                                        front-end
+                                        or back-end working
+                                        on full stake development <br> your need our
+                                        passion !</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="card1 bg-dark-subtle shadow-sm py-5 px-4 rounded-4">
+                                <div class="card-logo">
+                                    <i class="fa-solid fa-rectangle-ad fs-1 mb-3"></i>
+                                    <h3 class="card-heding mb-3">Brand Promoting</h3>
+                                    <p class="text-white-50 fs-5" data-aos="fade-left">I can also do working on your
+                                        Brand
+                                        Promotion with 2 years
+                                        Experienc your need our
+                                        passion !</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="card1 bg-dark-subtle shadow-sm py-5 px-4 rounded-4">
+                                <div class="card-logo">
+                                    <i class="fa-solid fa-chart-simple fs-1 mb-3"></i>
+                                    <h3 class="card-heding mb-3">Google Analatics</h3>
+                                    <p class="text-white-50 fs-5" data-aos="fade-left">I can do also your business
+                                        analatics
+                                        or web analatics
+                                        <br> your need our
+                                        passion !
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="card1 bg-dark-subtle shadow-sm py-5 px-4 rounded-4">
+                                <div class="card-logo">
+                                    <i class="fa-solid fa-bullhorn fs-1 mb-3"></i>
+                                    <h3 class="card-heding mb-3">Digital Marketing</h3>
+                                    <p class="text-white-50 fs-5" data-aos="fade-left">I am also working on Digital
+                                        Marketing hire me for any
+                                        digital marketing related your need our
+                                        passion !</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------------------------------------- why choose --------------------------------->
+        <section id="why-choose" class="bg-dark-subtle">
+            <div class="diffrent overflow-hidden text-center">
+                <h3 class="mb-1 display-6 fw-semibold">Why I'm Different?</h3>
+                <hr class="mb-3 mx-auto w-25">
+                <p class="text-white-50 fs-4 mb-5">We're smart, we're hard working, we're easy to talk to, and we love a
+                    challenge.</p>
+
+                <div class="container">
+                    <div class="row mb-md-4 justify-content-center">
+                        <div class="col-sm-6 col-lg-4 mb-5" data-aos="fade-down-right">
+                            <div class="box d-flex">
+                                <div class="box1 p-3">
+                                    <i
+                                        class="fa-solid fa-fingerprint border p-3 border-light-subtle rounded-circle"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h4>Unique Design</h4>
+                                    <p>We're smart, we're hard working, we're easy to talk to, and we love a
+                                        challenge.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5" data-aos="fade-down-right">
+                            <div class="box d-flex">
+                                <div class="box1 p-3">
+                                    <i class="fa-solid fa-gear border p-3 border-light-subtle rounded-circle"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h4>Fully Customisable</h4>
+                                    <p>We're smart, we're hard working, we're easy to talk to, and we love a
+                                        challenge.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5" data-aos="fade-down-right">
+                            <div class="box d-flex">
+                                <div class="box1 p-3">
+                                    <i
+                                        class="fa-solid fa-layer-group border p-3 border-light-subtle rounded-circle"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h4>Different Layout</h4>
+                                    <p>We're smart, we're hard working, we're easy to talk to, and we love a
+                                        challenge.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5" data-aos="fade-down-right">
+                            <div class="box d-flex">
+                                <div class="box1 p-3">
+                                    <i class=""></i>
+                                    <i
+                                        class="fa-solid fa-mobile-screen border p-3 border-light-subtle rounded-circle"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h4>Responsive Layout</h4>
+                                    <p>We're smart, we're hard working, we're easy to talk to, and we love a
+                                        challenge.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5" data-aos="fade-down-right">
+                            <div class="box d-flex">
+                                <div class="box1 p-3">
+                                    <i
+                                        class="fa-solid fa-down-left-and-up-right-to-center border p-3 border-light-subtle rounded-circle"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h4>Boxed & Wide Layouts</h4>
+                                    <p>We're smart, we're hard working, we're easy to talk to, and we love a
+                                        challenge.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5" data-aos="fade-down-right">
+                            <div class="box d-flex">
+                                <div class="box1 p-3">
+                                    <i class="fa-solid fa-life-ring border p-3 border-light-subtle rounded-circle"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h4>Extensive Documentation</h4>
+                                    <p>We're smart, we're hard working, we're easy to talk to, and we love a
+                                        challenge.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-skill" id="skill">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6" data-aos="flip-left">
+                            <img src="asset/images/why-choose.jpg" class="img-fluid rounded-3 video" alt="">
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <h3>My Skill</h3>
+                            <p class="mb-3 text-white-50 fst-italic fs-5">
+                                I'm Intrested in this course and also this is including my skill and improve my skill
+                                completed this course.
+                            </p>
+                            <div class="course py-3">
+                                <h4 class="text-start mb-2" data-aos="fade-right">Html</h4>
+                                <div class="progress mb-4" data-aos="fade-right">
+                                    <div class="progress-bar  progress-bar-striped progress-bar-animated "
+                                        style="background-color:  #20c997 !important; color: black !important; font-weight: 900; width: 85% !important;">
+                                        80%</div>
+                                </div>
+                                <h4 class="text-start mb-2" data-aos="fade-right">Css</h4>
+                                <div class="progress mb-4" data-aos="fade-right">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="background-color:  #20c997 !important; color: black !important; font-weight: 900; width: 78% !important;">
+                                        78%</div>
+                                </div>
+                                <h4 class="text-start mb-2" data-aos="fade-right">Jquery</h4>
+                                <div class="progress mb-4" data-aos="fade-right">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="background-color:  #20c997 !important; color: black !important; font-weight: 900; width: 76% !important;">
+                                        76%</div>
+                                </div>
+                                <h4 class="text-start mb-2" data-aos="fade-right">Bootstrap</h4>
+                                <div class="progress mb-4" data-aos="fade-right">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="background-color:  #20c997 !important; color: black !important; font-weight: 900; width: 81% !important;">
+                                        81%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="hire-me text-center" id="hire-me">
+            <p class="mb-4 fs-4" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">I ma
+                Available for Freelancer.</p>
+            <h3 class="mb-5 display-6 fw-semibold" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">Start a Project With Me Today</h3>
+            <button class="py-3 px-5 rounded-pill border-0 bg-white fs-5 fw-bold mb-md-3" style="color: #20c997;"
+                data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Hire
+                Me</button>
+        </div>
+        <!------------------------------------ our best work ----------------------------->
+        <section id="our-best-work" class="work text-center bg-opacity-50">
+            <h2 class="mb-2 display-6 fw-medium">Our Best Works</h2>
+            <hr class="mb-3 mx-auto w-25">
+            <p class="fs-5 text-white-50 mb-5">
+                I help you build business for your business at an affordable price. Thousands of clients have <br>
+                procured
+                exceptional results while working with Me.
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <div class="card grayscale">
+                            <a href="demo/recipe Project/project/index.html"
+                                class="text-decoration-none fw-semibold fs-5 text-bg-primery"><img
+                                    src="asset/images/Screenshot (1).png" width="100%" alt="">Live Prev</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <div class="card grayscale">
+                            <a href="demo/Project Admin Panel/index.html"
+                                class="text-decoration-none fw-semibold fs-5 text-bg-primery"><img
+                                    src="asset/images/Screenshot (6).png" width="100%" height="230px" alt="">Live
+                                Prev</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <div class="card grayscale">
+                            <a href="demo/practical exam/index.html"
+                                class="text-decoration-none fw-semibold fs-5 text-bg-primery"><img
+                                    src="asset/images/Screenshot (7).png" width="100%" height="230px" alt="">Live
+                                Prev</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------------------- work-process --------------------------------------->
+        <section id="work-process" class="bg-dark-subtle text-center">
+            <div class="container">
+
+                <h3 class="display-6 fw-medium">Work Process</h3>
+                <p class="fs-5 text-white-50 mb-5">Simple work process of build your websites. Delivering work within
+                    time
+                    and budget which meets <br> client's requirements is our moto.
+                </p>
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="box d-flex p-5">
+                            <div class="box1 p-4">
+                                <div class="box1-icon border border-4 rounded-circle"
+                                    style="border-color: #20c997 !important;">
+                                    <span class="fw-medium py-5 px-4 fs-1" style="color: #20c997 !important;">1</span>
+                                </div>
+                            </div>
+                            <div class="text-start">
+                                <h3>Planning & Consulting</h3>
+                                <p>We're smart, we're hard working, we're easy to talk to, and we love a challenge
+                                    lisque
+                                    persius mea essent possim iriure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="box d-flex p-5">
+                            <div class="box1 p-4">
+                                <div class="box1-icon border border-4 rounded-circle"
+                                    style="border-color: #20c997 !important;">
+                                    <span class="fw-medium py-5 px-4 fs-1" style="color: #20c997 !important;">2</span>
+                                </div>
+                            </div>
+                            <div class="text-start">
+                                <h3>Content</h3>
+                                <p>We're smart, we're hard working, we're easy to talk to, and we love a challenge
+                                    lisque
+                                    persius mea essent possim iriure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="box d-flex p-5">
+                            <div class="box1 p-4">
+                                <div class="box1-icon border border-4 rounded-circle"
+                                    style="border-color: #20c997 !important;">
+                                    <span class="fw-medium py-5 px-4 fs-1" style="color: #20c997 !important;">3</span>
+                                </div>
+                            </div>
+                            <div class="text-start">
+                                <h3>Conception</h3>
+                                <p>We're smart, we're hard working, we're easy to talk to, and we love a challenge
+                                    lisque
+                                    persius mea essent possim iriure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="box d-flex p-5">
+                            <div class="box1 p-4">
+                                <div class="box1-icon border border-4 rounded-circle"
+                                    style="border-color: #20c997 !important;">
+                                    <span class="fw-medium py-5 px-4 fs-1" style="color: #20c997 !important;">4</span>
+                                </div>
+                            </div>
+                            <div class="text-start">
+                                <h3>Design & Development</h3>
+                                <p>We're smart, we're hard working, we're easy to talk to, and we love a challenge
+                                    lisque
+                                    persius mea essent possim iriure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="box d-flex p-5">
+                            <div class="box1 p-4">
+                                <div class="box1-icon border border-4 rounded-circle"
+                                    style="border-color: #20c997 !important;">
+                                    <span class="fw-medium py-5 px-4 fs-1" style="color: #20c997 !important;">5</span>
+                                </div>
+                            </div>
+                            <div class="text-start">
+                                <h3>Final discussion</h3>
+                                <p>We're smart, we're hard working, we're easy to talk to, and we love a challenge
+                                    lisque
+                                    persius mea essent possim iriure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="box d-flex p-5">
+                            <div class="box1 p-4">
+                                <div class="box1-icon border border-4 rounded-circle"
+                                    style="border-color: #20c997 !important;">
+                                    <span class="fw-medium py-5 px-4 fs-1" style="color: #20c997 !important;">6</span>
+                                </div>
+                            </div>
+                            <div class="text-start">
+                                <h3>Delivery & Launch</h3>
+                                <p>We're smart, we're hard working, we're easy to talk to, and we love a challenge
+                                    lisque
+                                    persius mea essent possim iriure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg-opacity-25 text-center container-fluid mb-2">
+            <div class="clint">
+                <h2 class="mt-5">Our Clients</h2>
+                <hr class="mb-3 mx-auto heading-bottom">
+                <p class="mb-3 fs-5 text-white-50">
+                    See what my happy clients say about me. I'm proud to have my clients.
+                </p>
+
+                <div id="carousel-autoplay" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <i class="fa-solid fa-quote-left " style="color: #20c997 !important;"></i>
+                            <div class="col-lg-6 mx-auto">
+                                <p class="d-block w-100 fs-4">
+                                    “I am happy Working with printing and typesetting industry. Quidam lisque persius
+                                    interesset his et, in quot quidam persequeris essent possim iriure. simply dummy
+                                    text of
+                                    the printing and typesetting industry.”
+                                </p>
+                            </div>
+                            <img src="asset/images/clint.jpg" class="img-fluid rounded-circle"
+                                style="width: 80px !important; height: 70px !important;" alt="">
+                            <h4 class="text-white-50">Williyams</h4>
+                            <p class="text-white-50">Founder of Live gamer</p>
+                        </div>
+                        <div class="carousel-item">
+                            <i class="fa-solid fa-quote-left " style="color: #20c997 !important;"></i>
+                            <div class="col-lg-6 mx-auto">
+                                <p class="d-block w-100 fs-4">
+                                    Easy to use, reasonably priced simply dummy text of the printing and typesetting
+                                    industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.
+                                    simply
+                                    dummy text of the printing and typesetting industry.”
+                                </p>
+                            </div>
+                            <img src="asset/images/images (1).jfif" class="img-fluid object-fit-fill rounded-circle"
+                                style="width: 80px !important; height: 80px !important;" alt="">
+                            <h4 class="text-white-50">Jhon Deo</h4>
+                            <p class="text-white-50">Founder of Toushal Infotech</p>
+                        </div>
+                        <div class="carousel-item">
+                            <i class="fa-solid fa-quote-left " style="color: #20c997 !important;"></i>
+                            <div class="col-lg-6 mx-auto">
+                                <p class="d-block w-100 fs-4">
+                                    “I have used them twice now. Good rates, very efficient service and priced simply
+                                    dummy
+                                    text of the printing and typesetting industry quidam interesset his et. simply dummy
+                                    text of the printing and typesetting industry. Excellent.”
+                                </p>
+                            </div>
+                            <img src="asset/images/img.jpg" class="img-fluid object-fit-fill rounded-circle"
+                                style="width: 80px !important; height: 80px !important;" alt="">
+                            <h4 class="text-white-50">Hitesh Desai</h4>
+                            <p class="text-white-50">Founder of Red & White</p>
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-autoplay"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <div class="crousel-indicators">
+                        <button type="button" data-bs-target="#carousel-autoplay" data-bs-slide-to="0"
+                            aria-current="true" class="active"></button>
+                        <button type="button" data-bs-target="#carousel-autoplay" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-autoplay" data-bs-slide-to="2"></button>
+                    </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-autoplay"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------------------------------------------- body end ------------------------------------------------------------------->
+
+        <!----------------------- footer start ----------------------->
+        <footer>
+            <!---------------------- contact us -------------------------->
+            <section id="contact-us" class="bg-dark-subtle text-center p-2">
+                <h3 class="mt-5">Contact Us</h3>
+                <hr class="mb-3 mx-auto heading-bottom">
+                <p class="mb-3 fs-4 text-white-50">Send me a note, and let’s get started on your project today!</p>
+                <div class="container">
+                    <div class="form text-start">
+                        <div class="col-lg-8 mx-auto d-flex flex-wrap">
+                            <div class="col-lg-6 col-sm-12 p-1" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000">
+                                <label for="" class="form-label fs-5">First Name</label>
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col-lg-6 col-sm-12 p-1" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000">
+                                <label for="" class="form-label fs-5">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                            <div class="col-12" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000">
+                                <label for="" class="form-label fs-5">Tell Us</label>
+                                <input type="text" class="form-control p-5"
+                                    placeholder="Tell Us More About Your Needs....">
+                            </div>
+                            <div class="btn d-flex mx-auto mt-3" data-aos="slide-right" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000">
+                                <button class="py-3 px-5 rounded-pill border-0 fs-5 fw-bold text-center"
+                                    style="background-color: #20c997 !important;">Send Me</button>
+                            </div>
+                            <div class="row ma-5">
+                                <div class="col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="1000">
+                                    <div class="contact-me">
+                                        <div class="location text-center">
+                                            <i class="fa-solid fa-location-dot text-white-50"></i>
+                                            <h4 class="mt-3 text-uppercase">Visit Us</h4>
+                                            <p class="text-white-50">Red N White
+                                                Velocity 101
+                                                Adajan
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="1000">
+                                    <div class="contact-me">
+                                        <div class="location text-center">
+                                            <i class="fa-solid fa-phone-volume text-white-50"></i>
+                                            <h4 class="mt-3 text-uppercase">Call Us Now</h4>
+                                            <p class="text-white-50">Phone: (+91) 6201567601 <br>
+                                                Fax: (+060) 8898880088
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="2000">
+                                    <div class="contact-me">
+                                        <div class="location text-center">
+                                            <i class="fa-solid fa-envelope text-white-50"></i>
+                                            <h4 class="mt-3 text-uppercase">INQUIRIES</h4>
+                                            <a href="sufiyanansari6201@gmail.com"
+                                                class="text-white-50">sufiyanansari6201@gmail.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <!----------------------------------- footer end ------------------------------------------------->
+
+    <!---------------------- jquery ---------------------------------->
+    <script src="asset/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <!---------------------- bootstrap js ----------------->
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+    <!-------------------------- AOS ---------------------------->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-------------- main.js -------------->
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html>
